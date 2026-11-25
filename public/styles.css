@@ -1,0 +1,112 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(135deg, #171827, #292442);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.container {
+    width: 100%;
+    max-width: 480px;
+    text-align: center;
+}
+
+.card {
+    background: #ffffff;
+    padding: 40px 35px;
+    border-radius: 20px;
+    text-align: left;
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+}
+
+.icon {
+    font-size: 38px;
+    margin-bottom: 20px;
+}
+
+.tag {
+    background: #eeeaff;
+    color: #7255c9;
+    font-size: 10px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    padding: 8px 12px;
+    border-radius: 20px;
+}
+
+h1 {
+    color: #25233a;
+    font-size: 36px;
+    margin-top: 22px;
+}
+
+.description {
+    color: #777589;
+    line-height: 1.6;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.divider {
+    height: 1px;
+    background: #eeeeF3;
+    margin: 28px 0;
+}
+
+h3 {
+    color: #333147;
+    font-size: 15px;
+    margin-bottom: 18px;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    padding: 13px 0;
+    border-bottom: 1px solid #f0eff4;
+    font-size: 13px;
+}
+
+.info span {
+    color: #858396;
+}
+
+.info strong {
+    color: #38344f;
+}
+
+.status {
+    background: #ecfdf3;
+    color: #198754;
+    padding: 13px;
+    border-radius: 10px;
+    font-size: 12px;
+    margin-top: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+.dot {
+    width: 8px;
+    height: 8px;
+    background: #22c55e;
+    border-radius: 50%;
+}
+
+footer {
+    color: #aaa7bd;
+    font-size: 12px;
+    margin-top: 22px;
+}
